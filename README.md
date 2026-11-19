@@ -5,8 +5,12 @@ Dito é um app de ditado por voz para macOS. A transcrição roda no próprio Ma
 ## Instalar
 
 ```sh
-brew install --cask clouddios/dito/dito
+brew tap clouddios/dito
+brew trust clouddios/dito
+brew install --cask dito
 ```
+
+O `brew trust` é exigido pelo Homebrew para taps que não são oficiais.
 
 Requer macOS 27 ou mais novo, em Mac com Apple Silicon.
 

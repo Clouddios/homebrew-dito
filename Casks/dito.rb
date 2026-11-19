@@ -4,11 +4,11 @@ cask "dito" do
 
   url "https://github.com/Clouddios/homebrew-dito/releases/download/v#{version}/Dito-#{version}.zip"
   name "Dito"
-  desc "Ditado por voz local, direto no Mac"
+  desc "Ditado por voz com transcrição local"
   homepage "https://github.com/Clouddios/homebrew-dito"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :golden_gate"
+  depends_on macos: :golden_gate
 
   app "Dito.app"
 
