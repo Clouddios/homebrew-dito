@@ -1,6 +1,6 @@
 cask "dito" do
   version "0.1.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "64792cdb4f014d088781df46b6ac1ecb77cd6ed26f64587497922805a5c23d40"
 
   url "https://github.com/Clouddios/homebrew-dito/releases/download/v#{version}/Dito-#{version}.zip"
   name "Dito"
